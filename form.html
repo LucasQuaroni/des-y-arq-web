@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Formulario</h1>
+        </nav>
+    </header>
+    <main>
+        <form action="mailto:" method="post" target="_blank" enctype="text/plain">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo electrónico: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="fecha">Fecha de Nacimiento: </label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <br>
+            <div>
+                <label for="origen">País de origen: </label>
+                <select name="origen" id="origen">
+                    <option value="ARG">Argentina</option>
+                    <option value="BRZ">Brazil</option>
+                    <option value="URU">Uruguay</option>
+                    <option value="CHI">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="texto">Texto: </label>
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="check">Es hombre?</label>
+                <input type="checkbox" name="check" id="check">
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+        <br>
+        <a href="index.html">CANCELAR</a>
+    </main>
+</body>
+</html>
