@@ -144,8 +144,9 @@ footer {
   background-color: #d1d1d1;
   height: 80px;
   margin-top: 20px;
-  position: static;
+  position: fixed;
   padding: 1rem;
+  bottom: 0;
 }
 
 .separator {
@@ -174,4 +175,86 @@ footer {
   margin-left: 20px;
   display: inline-block;
   vertical-align: middle;
+}
+
+/* Estilos para el form */
+
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ff0000;
+    margin-left: 250px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    color: black;
+    background-color: #ff0000;
+}
+
+form a {
+  text-decoration: none;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+#cancelar {
+    display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ff0000;
+  margin-left: 250px;
+  text-align: center;
+  border: 2px solid #ff0000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#cancelar:hover {
+  color: black;
+  background-color: #ff0000;
 }
