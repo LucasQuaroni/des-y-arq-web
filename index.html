@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paro de colectivos hoy en el AMBA, EN VIVO: qué líneas no prestan servicio y cuáles funcionan este 11 de abril</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.clarin.com/favicon-32x32.png">
+    <title>
+      Paro de colectivos hoy en el AMBA, EN VIVO: qué líneas no prestan servicio
+      y cuáles funcionan este 11 de abril
+    </title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://www.clarin.com/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="https://www.clarin.com/"
+        <a id="logo" href="https://www.clarin.com/"
           ><svg fill="#d80026">
             <symbol
               version="1.1"
@@ -31,12 +41,16 @@
             </symbol>
             <use xlink:href="#logoClarin"></use></svg
         ></a>
-        <a href="form.html">CONTACTO</a>
+        <a id="form" href="form.html">CONTACTO</a>
       </nav>
     </header>
     <main>
       <section>
-        <h1>EN VIVO</h1>
+        <p class="subtitle"><b>Ciudades</b></p>
+      </section>
+      <div class="separator"></div>
+      <section>
+        <h1>En vivo</h1>
         <h2>
           Paro de colectivos hoy en el AMBA, EN VIVO: qué líneas no prestan
           servicio y cuáles funcionan este 11 de abril
@@ -52,29 +66,28 @@
           </li>
           <li>La secretaria de Trabajo convocó al gremio.</li>
         </ul>
-        <br />
         <img
           src="https://www.clarin.com/img/2024/04/11/Y_V4uhxwT_1256x620__2.jpg#1712838024169"
           width="1256"
           height="620"
-          alt="Imagen de colectiveros"
+          alt="Colectiveros"
         />
-        <br />
-        <span
+        <span class="epigraphe"
           >Mucha gente espera por un colectivo en Constitución, pero circulan
           pocas unidades por el paro. Foto: Luciano Thieberger</span
         >
       </section>
 
-      <br /><br />
+      <div class="separator"></div>
 
-      <section>
-        <div>
+      <section class="cuerpo">
+        <div class="div-noticias">
           <h3>REDACCIÓN CLARÍN</h3>
-          <span>11/04/2024 09:36</span>
-          <p>
+          <span id="fecha">11/04/2024 09:36</span>
+          <p class="desarrollo">
             El
             <a
+              class="link"
               href="https://www.clarin.com/economia/paro-colectivos-uta-reclama-jueves-sueldo-ira-huelga_0_HKiiqBlghR.html"
               ><u>paro de colectivos</u></a
             >
@@ -82,6 +95,7 @@
             En la mayoría de las líneas, los choferes iniciaron una retención de
             tareas. Se trata de una medida de fuerza que promueve la
             <a
+              class="link"
               href="https://www.clarin.com/sociedad/gobierno-dijo-empresas-subsidios-adicionales-colectivos-jornada-previa-reunion-uta_0_CjbysUaMjC.html"
               ><u>Unión Tranviarios Automotor (UTA)</u></a
             >
@@ -92,11 +106,9 @@
           </p>
         </div>
 
-        <br />
-
-        <div>
+        <div class="div-noticias">
           <h4>Paro de colectivos: qué lineas no funcionan desde temprano</h4>
-          <p>
+          <p class="desarrollo-grey">
             Las líneas que no funcionan son: 1, 2, 4, 10, 12, 15, 17, 19, 22,
             29, 32, 33, 34, 37, 39, 41, 42, 45, 46, 47, 49, 53, 55, 59, 60, 61,
             62, 63, 64, 65, 67, 68, 70, 71, 75, 85, 86, 87, 88, 90, 92, 93, 95,
@@ -105,11 +117,11 @@
             154, 158, 159, 160, 163, 166, 169, 172, 174, 176, 178, 179, 180,
             181, 182, 184, 185, 193, 194 y 195.
           </p>
-          <p>
+          <p class="desarrollo">
             Tampoco lo hacen las empresas provinciales desde el 200 al 499 y las
             municipales, desde el 500 en adelante.
           </p>
-          <p>
+          <p class="desarrollo">
             Según la recopilación realizada por la cuenta de X "Ciudad de
             Bondis", las líneas que circularán son 6, 7, 8 (ex 5), 9, 20, 21,
             23, 24, 25, 26, 28, 31, 44, 50, 51, 56, 57, 74, 76, 79, 80, 84, 87,
@@ -121,14 +133,12 @@
           </p>
         </div>
 
-        <br />
-
-        <div>
+        <div class="div-noticias">
           <h4>
             Una quita de 250 mil pesos al sueldo, el motivo por el que comenzó
             el paro de colectivos
           </h4>
-          <p>
+          <p class="desarrollo">
             El paro de transporte se originó cuando los choferes de colectivos
             percibieron un sueldo con casi 250 mil pesos menos. Es que la UTA y
             las empresas acordaron las paritarias para enero y febrero. En el
@@ -136,14 +146,14 @@
             básico y un bono de $ 250.000.
           </p>
 
-          <p>
+          <p class="desarrollo">
             Una cláusula del acuerdo estableció que en marzo el mínimo que
             cobrarían sería de $ 987.000 (incorporar el bono al salario), pero
             el Gobierno no lo reconoce porque no hubo paritaria firmada para
             marzo y los meses siguientes.
           </p>
 
-          <p>
+          <p class="desarrollo">
             De esa forma, la Secretaría de Transporte no incluyó en el cálculo
             de costos ese plus salarial. Y las empresas sostienen que no
             recaudan lo suficiente entre tarifas y subsidios para pagar la
@@ -152,26 +162,24 @@
           </p>
         </div>
 
-        <br />
-
-        <div>
+        <div class="div-noticias">
           <h4>
             Desde provincia reconocen que no está funcionando "casi ninguna
             línea"
           </h4>
-          <p>
+          <p class="desarrollo">
             Jorge D'Onofrio, ministro de Transporte de la Provincia de Buenos
             Aires, señaló que el paro se siente con fuerza en el Conurbano,
             donde "casi ninguna" de las 256 líneas están funcionando.
           </p>
 
-          <p>
+          <p class="desarrollo">
             "Para nosotros es mas grave porque no hay medios alternativos como
             subte o tren. Eso ha colapsado el día de hoy. Ojalá se llegue a
             algún entendimiento", sostuvo en TN
           </p>
 
-          <p>
+          <p class="desarrollo">
             Además apuntó a Nación por no terminar de cerrar la paritaria. "No
             ha incorporado a su estructura de costos esa diferencia salarial. El
             mes pasado los trabajadores cobraron los 980 mil que reclamaban. Los
@@ -182,17 +190,49 @@
         </div>
       </section>
     </main>
-    <br>
-    <br>
-    <br>
+    <div class="separator"></div>
     <footer>
-        <div class="icon"><div><svg style="width:135px;height:35px" fill="#d80026"><symbol version="1.1" id="logoClarin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.289 19.314" enable-background="new 0 0 86.289 19.314"><g id="Capa_2"><g id="Capa_1-2"><path d="M14.24,17.248c-1.556,0.803-3.29,1.202-5.041,1.156c-5.926,0-8.162-3.865-8.162-8.338c0-5.101,2.825-9.026,8.614-9.026c1.678,0.024,3.321,0.483,4.769,1.333L14.184,6.71l-1.668-0.176l-0.332-1.824c-0.18-1.14-0.984-1.825-2.513-1.825c-2.844,0-4.593,2.549-4.593,6.802c0,4.597,1.561,6.874,4.493,6.874c1.708,0,2.336-0.4,2.668-1.708l0.432-1.509h1.769L14.24,17.248z M20.417,15.048c0,1.512,0.08,1.708,0.904,1.844l0.548,0.081v1.156h-6.53v-1.157l0.588-0.08c0.824-0.116,0.904-0.272,0.904-1.824V3.492c0-1.02-0.256-1.236-1.06-1.432L15.26,1.94l0.14-1.096h5.001L20.417,15.048z M33.941,18.073c-0.679,0.212-1.385,0.324-2.097,0.332c-1.885,0-2.376-0.824-2.553-1.628c-0.608,0.804-1.548,1.628-3.449,1.628c-2.825,0-3.337-2-3.337-3.357c0-3.669,3.749-3.845,6.574-3.941V9.81c0-1.156-0.472-1.925-1.824-1.925c-1.22,0.056-2.412,0.378-3.493,0.944l-0.721-1.492c1.518-1.048,3.313-1.622,5.157-1.648c3.081,0,4.458,0.98,4.458,4.613v5.473c0,0.96,0.136,1.116,0.92,1.201l0.336,0.04L33.941,18.073z M29.095,12.519c-1.96-0.061-3.041,0.488-3.041,1.96c0,1.08,0.568,1.629,1.492,1.629c0.924,0,1.548-0.4,1.548-1.293V12.519z M39.77,15.048c0,1.512,0.116,1.708,0.96,1.809l0.924,0.096v1.177h-6.869v-1.177l0.532-0.08c0.824-0.156,0.88-0.272,0.88-1.824V8.85c0-0.925-0.156-1.377-0.96-1.533l-0.592-0.096l0.08-1.2h4.401l0.236,0.14l0.292,1.725c0.748-1.292,1.668-2.196,2.945-2.196c0.445,0.004,0.888,0.07,1.316,0.196l-0.28,4.117h-0.292c-1.708-1.02-2.829-1.276-3.573-0.94V15.048z M49.737,15.048c0,1.512,0.12,1.708,0.944,1.844l0.548,0.081v1.156h-6.709v-1.157l0.588-0.08c0.844-0.136,1.041-0.272,1.041-1.824V8.866c0-1.076-0.236-1.373-1.041-1.568l-0.432-0.076l0.08-1.2H49.5l0.236,0.14V15.048z M56.938,15.048c0,1.512,0,1.809,0.824,1.884l0.372,0.04v1.157h-6.162v-1.157l0.452-0.08c0.844-0.136,0.944-0.292,0.944-1.844V8.866c0-1.02-0.16-1.373-0.984-1.548l-0.568-0.096l0.08-1.2h4.493l0.236,0.14l0.176,1.393c1.04-1.06,2.333-1.864,4-1.864c2.001,0,3.201,1.156,3.201,3.865v5.494c0,1.492,0.077,1.749,0.92,1.844l0.532,0.081v1.156h-6.162v-1.157l0.4-0.06c0.704-0.096,0.744-0.373,0.744-1.725V9.927c0-1.333-0.528-1.725-1.548-1.725c-0.667-0.019-1.329,0.129-1.925,0.432L56.938,15.048z M50.993,1.844V1.588L48.464,0l-3.081,3.649l1.097,0.98L50.993,1.844z"></path><path d="M77.28,9.33l-2.989,1.012v0.032c0.011,1.394-1.11,2.533-2.505,2.544c-1.395,0.011-2.533-1.11-2.544-2.504c-0.011-1.395,1.11-2.534,2.505-2.544c0.958-0.008,1.839,0.529,2.272,1.384c0.036,0.076,6.001-1.488,8.578-4.914c-1.175-1.504-2.815-2.576-4.665-3.048c-0.708-0.18-1.435-0.271-2.165-0.272c-1.341-0.008-2.666,0.302-3.865,0.905c-0.894,0.44-1.706,1.03-2.401,1.744c-0.901,0.896-1.577,1.993-1.973,3.201c-1.692,5.202,2.401,6.954,4.226,6.954c1.287-0.005,2.535-0.445,3.541-1.248C76.32,11.762,77.023,10.613,77.28,9.33z M84.433,9.154c-1.447-0.298-2.929-0.389-4.401-0.268c-1.068,5.726-7.446,9.118-5.333,9.41c0.35,0.052,0.703,0.08,1.056,0.084c3.985,0.011,7.463-2.699,8.426-6.566c0.175-0.687,0.263-1.392,0.264-2.1C84.449,9.53,84.445,9.342,84.433,9.154z"></path></g></g></symbol><use xlink:href="#logoClarin"></use></svg></div></div>
-        <br>
-        <div><div class="list-container first"><div class="flex-col"><span class="list__title">Suscribite a Clarín</span><ul class="suscription"><li class="point"><a href="/suscripciones/landing.html" aria-label="www.clarin.com/suscripciones/landing.html" target="_blank">Beneficios</a></li><li class="point"><a rel="noopener" href="https://micuenta.clarin.com/u/login/identifier?state=hKFo2SBQbXIzRVJERVlPbWJ6THRxRmZtQXFkVE1lWl9yZXVBSKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIE54N0hIUU91ZGU3dnRVOTZ6QmJVUm9GRFdzbmFmNmx4o2NpZNkgSmNWaDRUdVFpemZWWk4xUWd0bmYzY0tQNXZmWklWMms" aria-label="micuenta.clarin.com" target="_blank">Ingresar</a></li></ul></div><div class="flex-col"><span class="list__title">Descarga la app de Clarín</span><ul class="download"><li class="point"><a href="https://play.google.com/store/apps/details?id=com.agea.clarin&amp;hl=es_AR&amp;gl=US&amp;pli=1" aria-label="play.google.com" target="_blank">Google Play</a></li><li class="point"><a rel="noopener" href="https://apps.apple.com/ar/app/clar%C3%ADn-com/id597509902" aria-label="apps.apple.com/ar" target="_blank">App Store</a></li></ul></div></div></div>
-        <br>
-        <div class="sc-aa4e6eb1-0 gLaOru"><div class="middle"><div class="register-one"><p class="editor"><span>Editor Responsable:</span> Ricardo Kirschbaum<!-- --> </p><p class="regis"><span>Registro de Propiedad Intelectual:</span> 4347221<!-- --> </p><p class="edition"><span>Edición Nº:</span> <!-- -->10234<!-- -->, <!-- -->11 de April de 2024</p><p class="address">Piedras 1743 / Tacuarí 1846. CP: 1140. C.A.B.A, Argentina</p></div><div class="register-two"><p>Propietario Arte Gráfico Editorial Argentino Sociedad Anónima © 1996-<!-- -->2024<!-- --> <!-- --> <!-- -->Clarín.com - Clarín Digital - Todos los derechos reservados.</p></div><div class="register-three"><a aria-label="afip.gob" rel="noopener nofollow" href="http://qr.afip.gob.ar/?qr=qy9BfPZjufnExnl8h25PyA,," target="_blank"><picture><img loading="lazy" width="40" height="55" src="https://www.clarin.com/commons/bundles/clarinsite/images/afip.png" alt="Afip"></picture></a><span>   Información fiscal</span></div></div></div>
-        <br>
-        <div class="sc-cbe2d7a-0 bycVEJ"><ul><li><a class="terms" href="/ayuda/terminos-condiciones.html" rel="nofollow">Términos y Condiciones</a></li><li><a class="policy" href="/ayuda/politica-proteccion-datos-personales.html" rel="nofollow">Política de protección de datos personales</a></li><li><a class="rules" href="/ayuda/normas-confidencialidad-privacidad.html" rel="nofollow">Normas de confidencialidad y privacidad</a></li><li><a class="defense" href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario%20?utm_source=clarin&amp;utm_medium=footer&amp;utm_campaign=clarin&amp;utm_id=defensaconsumidor&amp;utm_term=footerclarin" rel="nofollow" target="_blank">Defensa de las y los consumidores: para reclamos ingrese<!-- --> <span>aquí</span></a></li></ul></div>
+      <div class="icon">
+        <div>
+          <svg fill="#d80026" style="width: 135px; height: 35px">
+            <symbol
+              version="1.1"
+              id="logoClarin"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 86.289 19.314"
+              enable-background="new 0 0 86.289 19.314"
+            >
+              <g id="Capa_2">
+                <g id="Capa_1-2">
+                  <path
+                    d="M14.24,17.248c-1.556,0.803-3.29,1.202-5.041,1.156c-5.926,0-8.162-3.865-8.162-8.338c0-5.101,2.825-9.026,8.614-9.026c1.678,0.024,3.321,0.483,4.769,1.333L14.184,6.71l-1.668-0.176l-0.332-1.824c-0.18-1.14-0.984-1.825-2.513-1.825c-2.844,0-4.593,2.549-4.593,6.802c0,4.597,1.561,6.874,4.493,6.874c1.708,0,2.336-0.4,2.668-1.708l0.432-1.509h1.769L14.24,17.248z M20.417,15.048c0,1.512,0.08,1.708,0.904,1.844l0.548,0.081v1.156h-6.53v-1.157l0.588-0.08c0.824-0.116,0.904-0.272,0.904-1.824V3.492c0-1.02-0.256-1.236-1.06-1.432L15.26,1.94l0.14-1.096h5.001L20.417,15.048z M33.941,18.073c-0.679,0.212-1.385,0.324-2.097,0.332c-1.885,0-2.376-0.824-2.553-1.628c-0.608,0.804-1.548,1.628-3.449,1.628c-2.825,0-3.337-2-3.337-3.357c0-3.669,3.749-3.845,6.574-3.941V9.81c0-1.156-0.472-1.925-1.824-1.925c-1.22,0.056-2.412,0.378-3.493,0.944l-0.721-1.492c1.518-1.048,3.313-1.622,5.157-1.648c3.081,0,4.458,0.98,4.458,4.613v5.473c0,0.96,0.136,1.116,0.92,1.201l0.336,0.04L33.941,18.073z M29.095,12.519c-1.96-0.061-3.041,0.488-3.041,1.96c0,1.08,0.568,1.629,1.492,1.629c0.924,0,1.548-0.4,1.548-1.293V12.519z M39.77,15.048c0,1.512,0.116,1.708,0.96,1.809l0.924,0.096v1.177h-6.869v-1.177l0.532-0.08c0.824-0.156,0.88-0.272,0.88-1.824V8.85c0-0.925-0.156-1.377-0.96-1.533l-0.592-0.096l0.08-1.2h4.401l0.236,0.14l0.292,1.725c0.748-1.292,1.668-2.196,2.945-2.196c0.445,0.004,0.888,0.07,1.316,0.196l-0.28,4.117h-0.292c-1.708-1.02-2.829-1.276-3.573-0.94V15.048z M49.737,15.048c0,1.512,0.12,1.708,0.944,1.844l0.548,0.081v1.156h-6.709v-1.157l0.588-0.08c0.844-0.136,1.041-0.272,1.041-1.824V8.866c0-1.076-0.236-1.373-1.041-1.568l-0.432-0.076l0.08-1.2H49.5l0.236,0.14V15.048z M56.938,15.048c0,1.512,0,1.809,0.824,1.884l0.372,0.04v1.157h-6.162v-1.157l0.452-0.08c0.844-0.136,0.944-0.292,0.944-1.844V8.866c0-1.02-0.16-1.373-0.984-1.548l-0.568-0.096l0.08-1.2h4.493l0.236,0.14l0.176,1.393c1.04-1.06,2.333-1.864,4-1.864c2.001,0,3.201,1.156,3.201,3.865v5.494c0,1.492,0.077,1.749,0.92,1.844l0.532,0.081v1.156h-6.162v-1.157l0.4-0.06c0.704-0.096,0.744-0.373,0.744-1.725V9.927c0-1.333-0.528-1.725-1.548-1.725c-0.667-0.019-1.329,0.129-1.925,0.432L56.938,15.048z M50.993,1.844V1.588L48.464,0l-3.081,3.649l1.097,0.98L50.993,1.844z"
+                  ></path>
+                  <path
+                    d="M77.28,9.33l-2.989,1.012v0.032c0.011,1.394-1.11,2.533-2.505,2.544c-1.395,0.011-2.533-1.11-2.544-2.504c-0.011-1.395,1.11-2.534,2.505-2.544c0.958-0.008,1.839,0.529,2.272,1.384c0.036,0.076,6.001-1.488,8.578-4.914c-1.175-1.504-2.815-2.576-4.665-3.048c-0.708-0.18-1.435-0.271-2.165-0.272c-1.341-0.008-2.666,0.302-3.865,0.905c-0.894,0.44-1.706,1.03-2.401,1.744c-0.901,0.896-1.577,1.993-1.973,3.201c-1.692,5.202,2.401,6.954,4.226,6.954c1.287-0.005,2.535-0.445,3.541-1.248C76.32,11.762,77.023,10.613,77.28,9.33z M84.433,9.154c-1.447-0.298-2.929-0.389-4.401-0.268c-1.068,5.726-7.446,9.118-5.333,9.41c0.35,0.052,0.703,0.08,1.056,0.084c3.985,0.011,7.463-2.699,8.426-6.566c0.175-0.687,0.263-1.392,0.264-2.1C84.449,9.53,84.445,9.342,84.433,9.154z"
+                  ></path>
+                </g>
+              </g>
+            </symbol>
+            <use xlink:href="#logoClarin"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="register-three">
+        <a
+          aria-label="afip.gob"
+          rel="noopener nofollow"
+          href="http://qr.afip.gob.ar/?qr=qy9BfPZjufnExnl8h25PyA,,"
+          target="_blank"
+          ><picture
+            ><img
+              loading="lazy"
+              width="40"
+              height="55"
+              src="https://www.clarin.com/commons/bundles/clarinsite/images/afip.png"
+              alt="Afip" /></picture></a
+        ><span>Información fiscal</span>
+      </div>
+      
     </footer>
   </body>
 </html>

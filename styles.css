@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #d1d1d1;
+  height: 80px;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-top: -38px;
+}
+
+#form {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ff0000;
+  margin-left: 1000px;
+  margin-top: -20px;
+  text-align: center;
+  border: 2px solid #ff0000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 17px;
+}
+
+#form:hover {
+  color: black;
+  background-color: #ff0000;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: red;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+section {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+li {
+  color: rgb(148, 148, 156);
+  font-size: 1.3rem;
+  margin-left: 40px;
+}
+
+ul {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+img {
+  margin-top: 20px;
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.epigraphe {
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-top: -40px;
+  color: white;
+  position: absolute;
+  left: 380px;
+}
+
+.cuerpo {
+  font-size: 1.2rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#fecha {
+  font-size: 0.8rem;
+}
+
+.link {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #ff0000;
+}
+
+.link:hover {
+  color: black;
+}
+
+.desarrollo {
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.desarrollo-grey {
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: darkgrey;
+}
+
+.div-noticias {
+  margin-top: 50px;
+  background-color: #d1d1d1;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #d1d1d1;
+  height: 80px;
+  margin-top: 20px;
+  position: fixed;
+  padding: 1rem;
+  bottom: 0;
+}
+
+.separator {
+  margin-top: 20px;
+  border-top: 0.5px solid rgb(209, 209, 209);
+  padding-top: 5px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.register-three {
+  display: inline-block;
+  position: relative;
+  margin-left: 1100px;
+  margin-top: -20px;
+}
+
+.register-three img {
+  display: inline-block;
+}
+
+.register-three span {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Estilos para el form */
+
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ff0000;
+    margin-left: 250px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    color: black;
+    background-color: #ff0000;
+}
+
+form a {
+  text-decoration: none;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+#cancelar {
+    display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ff0000;
+  margin-left: 250px;
+  text-align: center;
+  border: 2px solid #ff0000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#cancelar:hover {
+  color: black;
+  background-color: #ff0000;
+}
