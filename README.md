@@ -8,5 +8,5 @@
     Además, modificamos la estructura de las carpetas, para poder ir evolucionando el repositorio sin distiinguir el contenido de cada clase
     por carpeta. Todo esta suelto en el repo.
 
-- Este es el cuarto commit para la materia DAW. Clonamos la pagína del diario clarín de forma tal que quede lo mas similar posible, utilizando el paradigma pixel-perfect, con position absolute, perfect y demás. No se permite usar flexbox.
+- Este es el cuarto commit para la materia DAW. Clonamos la pagína del diario clarín de forma tal que quede lo mas similar posible, utilizando el paradigma pixel-perfect, con position absolute, perfect, fixed y demás. No se permite usar flexbox. Noticia original: https://www.clarin.com/ciudades/paro-colectivos-hoy-vivo-lineas-afectadas-11-abril-medida-fuerza-buenos-aires-minuto-minuto_0_bzqxp6vsa7.html
 
