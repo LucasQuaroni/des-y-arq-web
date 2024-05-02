@@ -211,23 +211,23 @@ input[type="checkbox"] {
 
 input[type="submit"],
 input[type="reset"] {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 20px;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #ff0000;
-    margin-left: 250px;
-    text-align: center;
-    border: 2px solid #ff0000;
-    padding: 10px 20px;
-    border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ff0000;
+  margin-left: 250px;
+  text-align: center;
+  border: 2px solid #ff0000;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    color: black;
-    background-color: #ff0000;
+  color: black;
+  background-color: #ff0000;
 }
 
 form a {
@@ -241,7 +241,7 @@ form a:hover {
 }
 
 #cancelar {
-    display: inline-block;
+  display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
   text-decoration: none;
