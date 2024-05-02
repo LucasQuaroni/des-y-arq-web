@@ -50,6 +50,17 @@ nav {
   margin-top: 20px;
 }
 
+.separator {
+  margin-top: 20px;
+  border-top: 0.5px solid rgb(209, 209, 209);
+  padding-top: 5px;
+}
+
+section {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
 h1 {
   font-size: 3rem;
   margin-left: 20px;
@@ -63,20 +74,15 @@ h2 {
   margin-top: 20px;
 }
 
-section {
+ul {
   margin-left: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 li {
   color: #979494;
   font-size: 1.3rem;
   margin-left: 40px;
-}
-
-ul {
-  margin-left: 40px;
-  margin-top: 20px;
 }
 
 img {
@@ -88,15 +94,6 @@ img {
   position: relative;
 }
 
-.epigraphe {
-  font-size: 1.3rem;
-  margin-left: 20px;
-  margin-top: -40px;
-  color: #ffff;
-  position: absolute;
-  left: 380px;
-}
-
 .cuerpo {
   font-size: 1.2rem;
   margin-left: 20px;
@@ -104,6 +101,15 @@ img {
   width: 40%;
   margin: 0 auto;
   margin-top: 20px;
+}
+
+.epigraphe {
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-top: -40px;
+  color: #ffff;
+  position: absolute;
+  left: 380px;
 }
 
 #fecha {
@@ -149,12 +155,6 @@ footer {
   bottom: 0;
 }
 
-.separator {
-  margin-top: 20px;
-  border-top: 0.5px solid rgb(209, 209, 209);
-  padding-top: 5px;
-}
-
 .icon {
   display: inline-block;
   vertical-align: middle;
@@ -176,6 +176,8 @@ footer {
   display: inline-block;
   vertical-align: middle;
 }
+
+
 
 /* Estilos para el form */
 
@@ -257,4 +259,14 @@ form a:hover {
 #cancelar:hover {
   color: #1a1a1a;
   background-color: #ff0000;
+}
+
+@media screen and (max-width: 640px) {
+  img {
+    display: none;
+  }
+
+  .epigraphe {
+    display: none;
+  }
 }
